@@ -1,18 +1,22 @@
 //
 //  main.m
-//  Lulu
+//  Particles
 //
-//  Created by Baptiste Bohelay on 2012-10-03.
-//  Copyright (c) 2012 Baptiste Bohelay. All rights reserved.
+//  Created by Baptiste Bohelay on 1/27/10.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "ParticlesAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) 
+{    
+//    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+//    int retVal = UIApplicationMain(argc, argv, nil, nil);
+//    [pool release];
+//    return retVal;
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ParticlesAppDelegate class]));
     }
 }
